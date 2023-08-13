@@ -8,8 +8,8 @@ module.exports = {
     discord: {
         id: process.env.DISCORD_ID,
         prefix: '!',
-        footer: ` nostalgia - ${new Date().getFullYear()}`, 
-        botInvite: `https://discord.gg/celestial`,
+        footer: `© Nostalgia 2021 - ${new Date().getFullYear()}`, 
+        botInvite: `https://discord.com/api/oauth2/authorize?client_id=1096958579245842533&permissions=8&scope=bot%20applications.commands`,
         serverInvite: "https://discord.gg/celestial",
     },
 
